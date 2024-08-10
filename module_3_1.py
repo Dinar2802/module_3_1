@@ -2,7 +2,7 @@ calls = 0
 
 def count_calls():
     global calls
-    calls = 4
+    calls += 1
 
 def string_info (string):
     count_calls()
